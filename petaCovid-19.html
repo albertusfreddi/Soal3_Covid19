@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b65e3cc0ff34baf96ff73f08323ecf4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9b65e3cc0ff34baf96ff73f08323ecf4" ></div>
+        
+</body>
+<script>    
+    
+            var map_9b65e3cc0ff34baf96ff73f08323ecf4 = L.map(
+                "map_9b65e3cc0ff34baf96ff73f08323ecf4",
+                {
+                    center: [-3.1252829, 116.8325654],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4.7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4ba86dd9d37e4bab95323d0b45813f5e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+            var marker_182e9ba699bc453ebd6c5074c86870eb = L.marker(
+                [4.695135, 96.7493993],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_026ace5bdd194df2aaf2792ec20a03f6 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Coat_of_arms_of_Aceh.svg/1200px-Coat_of_arms_of_Aceh.svg.png"});
+        marker_182e9ba699bc453ebd6c5074c86870eb.setIcon(custom_icon_026ace5bdd194df2aaf2792ec20a03f6);
+        
+    
+        var popup_d57add4765754019a0f5a6dd7c0a7552 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_84f8597ed12143dd9bd6fa49921f679e = $(`<div id="html_84f8597ed12143dd9bd6fa49921f679e" style="width: 100.0%; height: 100.0%;">Confirmed : 5  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_d57add4765754019a0f5a6dd7c0a7552.setContent(html_84f8597ed12143dd9bd6fa49921f679e);
+        
+
+        marker_182e9ba699bc453ebd6c5074c86870eb.bindPopup(popup_d57add4765754019a0f5a6dd7c0a7552)
+        ;
+
+        
+    
+    
+            marker_182e9ba699bc453ebd6c5074c86870eb.bindTooltip(
+                `<div>
+                     <i>Aceh</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d213738f8ce743ddb7e686a32013544b = L.marker(
+                [-8.4095178, 115.188916],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_1e8c2b69d91941e588fbe621e91015e4 = L.icon({"iconSize": [28, 30], "iconUrl": "https://4.bp.blogspot.com/-ELlrLdH0frM/WSz4AjqIWaI/AAAAAAAAASY/EF5ayA5zXn05TXw53cRUVTJeh6lzUJDDwCLcB/s400/Lambang%2BDaerah%2BProvinsi%2BBali%2B2.png"});
+        marker_d213738f8ce743ddb7e686a32013544b.setIcon(custom_icon_1e8c2b69d91941e588fbe621e91015e4);
+        
+    
+        var popup_be081915647140a39360910ca372c6aa = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_ac2fdd22b4f24aabbe78409b21c3fc42 = $(`<div id="html_ac2fdd22b4f24aabbe78409b21c3fc42" style="width: 100.0%; height: 100.0%;">Confirmed : 10  Recovered : 0  Deaths : 2</div>`)[0];
+            popup_be081915647140a39360910ca372c6aa.setContent(html_ac2fdd22b4f24aabbe78409b21c3fc42);
+        
+
+        marker_d213738f8ce743ddb7e686a32013544b.bindPopup(popup_be081915647140a39360910ca372c6aa)
+        ;
+
+        
+    
+    
+            marker_d213738f8ce743ddb7e686a32013544b.bindTooltip(
+                `<div>
+                     <i>Bali</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3b49f841ee348088d6ddcf2b507d72b = L.marker(
+                [-2.7410513, 106.4405872],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_c39d53e520ec4677a6811a8ea3e8a951 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coat_of_arms_of_Bangka_Belitung_Islands.svg/1200px-Coat_of_arms_of_Bangka_Belitung_Islands.svg.png"});
+        marker_e3b49f841ee348088d6ddcf2b507d72b.setIcon(custom_icon_c39d53e520ec4677a6811a8ea3e8a951);
+        
+    
+        var popup_a77d0172dfa84931baf1928942e808d2 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_b7b8e21229d949a58ebabe578ba505ef = $(`<div id="html_b7b8e21229d949a58ebabe578ba505ef" style="width: 100.0%; height: 100.0%;">Confirmed : 0  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_a77d0172dfa84931baf1928942e808d2.setContent(html_b7b8e21229d949a58ebabe578ba505ef);
+        
+
+        marker_e3b49f841ee348088d6ddcf2b507d72b.bindPopup(popup_a77d0172dfa84931baf1928942e808d2)
+        ;
+
+        
+    
+    
+            marker_e3b49f841ee348088d6ddcf2b507d72b.bindTooltip(
+                `<div>
+                     <i>Bangka Belitung</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a24367dc21504134bfd17f656557bfa4 = L.marker(
+                [-6.4058172, 106.0640179],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_08e060f4da884899b54df744c7b9467a = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Coat_of_arms_of_Banten.png"});
+        marker_a24367dc21504134bfd17f656557bfa4.setIcon(custom_icon_08e060f4da884899b54df744c7b9467a);
+        
+    
+        var popup_3a97ca14afa84c2f878b4f201817087c = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_93b7bf1879ad48daaba9e68c5d561d00 = $(`<div id="html_93b7bf1879ad48daaba9e68c5d561d00" style="width: 100.0%; height: 100.0%;">Confirmed : 106  Recovered : 1  Deaths : 4</div>`)[0];
+            popup_3a97ca14afa84c2f878b4f201817087c.setContent(html_93b7bf1879ad48daaba9e68c5d561d00);
+        
+
+        marker_a24367dc21504134bfd17f656557bfa4.bindPopup(popup_3a97ca14afa84c2f878b4f201817087c)
+        ;
+
+        
+    
+    
+            marker_a24367dc21504134bfd17f656557bfa4.bindTooltip(
+                `<div>
+                     <i>Banten</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c271e184cd2c46bd96dca74853677093 = L.marker(
+                [-3.5778471, 102.3463875],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_e07ec455de6e4fe0b86d4975e33f2d7c = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Coat_of_arms_of_Bengkulu.png"});
+        marker_c271e184cd2c46bd96dca74853677093.setIcon(custom_icon_e07ec455de6e4fe0b86d4975e33f2d7c);
+        
+    
+        var popup_bfc369c3f9174d3aadc6918ab16eab7d = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_b663734fb082451184a9b5ce501d187c = $(`<div id="html_b663734fb082451184a9b5ce501d187c" style="width: 100.0%; height: 100.0%;">Confirmed : 0  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_bfc369c3f9174d3aadc6918ab16eab7d.setContent(html_b663734fb082451184a9b5ce501d187c);
+        
+
+        marker_c271e184cd2c46bd96dca74853677093.bindPopup(popup_bfc369c3f9174d3aadc6918ab16eab7d)
+        ;
+
+        
+    
+    
+            marker_c271e184cd2c46bd96dca74853677093.bindTooltip(
+                `<div>
+                     <i>Bengkulu</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc65fee4ecd740b6a7f5dcab7fde7ef9 = L.marker(
+                [-7.150975, 110.1402594],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_0b035bd14fe6486889ad59ba05cadad4 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jawa_Tengah_Logo.svg/526px-Jawa_Tengah_Logo.svg.png"});
+        marker_cc65fee4ecd740b6a7f5dcab7fde7ef9.setIcon(custom_icon_0b035bd14fe6486889ad59ba05cadad4);
+        
+    
+        var popup_29e3bfab11ce4204bc21ff5e1a36c096 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_299d87a9b23d4010b54fb12e446ae03c = $(`<div id="html_299d87a9b23d4010b54fb12e446ae03c" style="width: 100.0%; height: 100.0%;">Confirmed : 63  Recovered : 0  Deaths : 7</div>`)[0];
+            popup_29e3bfab11ce4204bc21ff5e1a36c096.setContent(html_299d87a9b23d4010b54fb12e446ae03c);
+        
+
+        marker_cc65fee4ecd740b6a7f5dcab7fde7ef9.bindPopup(popup_29e3bfab11ce4204bc21ff5e1a36c096)
+        ;
+
+        
+    
+    
+            marker_cc65fee4ecd740b6a7f5dcab7fde7ef9.bindTooltip(
+                `<div>
+                     <i>Central Java</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2329bc40d7f84908b998965672ffddff = L.marker(
+                [-1.6814878, 113.3823545],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_c8148ac641874500a8726d41c4d829bb = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Coat_of_arms_of_Central_Kalimantan.png"});
+        marker_2329bc40d7f84908b998965672ffddff.setIcon(custom_icon_c8148ac641874500a8726d41c4d829bb);
+        
+    
+        var popup_8d59fc2b0d51483e98dabc3b9c255e53 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_5c8c8f3f7b4d48a091ee6191f605b637 = $(`<div id="html_5c8c8f3f7b4d48a091ee6191f605b637" style="width: 100.0%; height: 100.0%;">Confirmed : 7  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_8d59fc2b0d51483e98dabc3b9c255e53.setContent(html_5c8c8f3f7b4d48a091ee6191f605b637);
+        
+
+        marker_2329bc40d7f84908b998965672ffddff.bindPopup(popup_8d59fc2b0d51483e98dabc3b9c255e53)
+        ;
+
+        
+    
+    
+            marker_2329bc40d7f84908b998965672ffddff.bindTooltip(
+                `<div>
+                     <i>Central Kalimantan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92cff236e6874d6ab3ca8806dd56511b = L.marker(
+                [-1.4300254, 121.4456179],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_d9c1d6ceb7484d498cc37d0084326f79 = L.icon({"iconSize": [28, 30], "iconUrl": "http://1.bp.blogspot.com/-Mb3OPbim3Gw/VrYYo_59GjI/AAAAAAAAVFw/oh24hNmZ1NU/s1600/LOGO%2BSULAWESI%2BTENGAH.png"});
+        marker_92cff236e6874d6ab3ca8806dd56511b.setIcon(custom_icon_d9c1d6ceb7484d498cc37d0084326f79);
+        
+    
+        var popup_9943e6b7bee2476a9d58bcc747a083d7 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_da99b43b1ad64e488d40754c509967dd = $(`<div id="html_da99b43b1ad64e488d40754c509967dd" style="width: 100.0%; height: 100.0%;">Confirmed : 2  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_9943e6b7bee2476a9d58bcc747a083d7.setContent(html_da99b43b1ad64e488d40754c509967dd);
+        
+
+        marker_92cff236e6874d6ab3ca8806dd56511b.bindPopup(popup_9943e6b7bee2476a9d58bcc747a083d7)
+        ;
+
+        
+    
+    
+            marker_92cff236e6874d6ab3ca8806dd56511b.bindTooltip(
+                `<div>
+                     <i>Central Sulawesi</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdd139aac49547a39fb8564f8c11836b = L.marker(
+                [-7.5360639, 112.2384017],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_def2fb6e6c784b5ea5fa4ef34811fc84 = L.icon({"iconSize": [28, 30], "iconUrl": "https://2.bp.blogspot.com/-S1hrqQnm0nc/XDCpZ6C7iSI/AAAAAAAABvI/MlNdKdkNBHQa0lU-1I0gyTT5FbFSR2K0QCLcBGAs/s400/logo%2Bprovinsi%2Bjawa%2Btimur.png"});
+        marker_cdd139aac49547a39fb8564f8c11836b.setIcon(custom_icon_def2fb6e6c784b5ea5fa4ef34811fc84);
+        
+    
+        var popup_df6eae76a95748cc8b36418f102b9563 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_2129e3b20b9a44f380449e63612c310e = $(`<div id="html_2129e3b20b9a44f380449e63612c310e" style="width: 100.0%; height: 100.0%;">Confirmed : 90  Recovered : 11  Deaths : 7</div>`)[0];
+            popup_df6eae76a95748cc8b36418f102b9563.setContent(html_2129e3b20b9a44f380449e63612c310e);
+        
+
+        marker_cdd139aac49547a39fb8564f8c11836b.bindPopup(popup_df6eae76a95748cc8b36418f102b9563)
+        ;
+
+        
+    
+    
+            marker_cdd139aac49547a39fb8564f8c11836b.bindTooltip(
+                `<div>
+                     <i>East Java</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_698da76a950b421d931f138bc16f6a09 = L.marker(
+                [1.6406296, 116.419389],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_28245d3417094e51876908721e33c24a = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Coat_of_arms_of_East_Kalimantan.svg/1200px-Coat_of_arms_of_East_Kalimantan.svg.png"});
+        marker_698da76a950b421d931f138bc16f6a09.setIcon(custom_icon_28245d3417094e51876908721e33c24a);
+        
+    
+        var popup_a8558c96a7994650816334471eeb9758 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_ca6330e63c2547809db7524d005efbf9 = $(`<div id="html_ca6330e63c2547809db7524d005efbf9" style="width: 100.0%; height: 100.0%;">Confirmed : 17  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_a8558c96a7994650816334471eeb9758.setContent(html_ca6330e63c2547809db7524d005efbf9);
+        
+
+        marker_698da76a950b421d931f138bc16f6a09.bindPopup(popup_a8558c96a7994650816334471eeb9758)
+        ;
+
+        
+    
+    
+            marker_698da76a950b421d931f138bc16f6a09.bindTooltip(
+                `<div>
+                     <i>East Kalimantan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd730fd70d8b43bd86c378a84ce96073 = L.marker(
+                [-8.6573819, 121.0793705],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_4e511c72ecf84b7185bba1385cfb0baa = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Coat_of_arms_of_East_Nusa_Tenggara.svg/1200px-Coat_of_arms_of_East_Nusa_Tenggara.svg.png"});
+        marker_dd730fd70d8b43bd86c378a84ce96073.setIcon(custom_icon_4e511c72ecf84b7185bba1385cfb0baa);
+        
+    
+        var popup_663e91de524a4dc090166045638ab49d = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_00c3c066e6b64ddfa387b0a00eb76e14 = $(`<div id="html_00c3c066e6b64ddfa387b0a00eb76e14" style="width: 100.0%; height: 100.0%;">Confirmed : 0  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_663e91de524a4dc090166045638ab49d.setContent(html_00c3c066e6b64ddfa387b0a00eb76e14);
+        
+
+        marker_dd730fd70d8b43bd86c378a84ce96073.bindPopup(popup_663e91de524a4dc090166045638ab49d)
+        ;
+
+        
+    
+    
+            marker_dd730fd70d8b43bd86c378a84ce96073.bindTooltip(
+                `<div>
+                     <i>East Nusa Tenggara</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfcbe131978c4f00b132d7d388f26347 = L.marker(
+                [0.6999372, 122.4467238],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_a8f1f268ac34421c89b21861b2e420eb = L.icon({"iconSize": [28, 30], "iconUrl": "https://3.bp.blogspot.com/-75ec3fJKhgU/UNl0Tdg9UXI/AAAAAAAAIrg/YztGIINVa2w/s1600/LOGO+PROVINSI+GORONTALO.png"});
+        marker_bfcbe131978c4f00b132d7d388f26347.setIcon(custom_icon_a8f1f268ac34421c89b21861b2e420eb);
+        
+    
+        var popup_fbabb21d940943bea71b214a849e967c = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_edea799efad240fe9f7f8ac4cab626d7 = $(`<div id="html_edea799efad240fe9f7f8ac4cab626d7" style="width: 100.0%; height: 100.0%;">Confirmed : 0  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_fbabb21d940943bea71b214a849e967c.setContent(html_edea799efad240fe9f7f8ac4cab626d7);
+        
+
+        marker_bfcbe131978c4f00b132d7d388f26347.bindPopup(popup_fbabb21d940943bea71b214a849e967c)
+        ;
+
+        
+    
+    
+            marker_bfcbe131978c4f00b132d7d388f26347.bindTooltip(
+                `<div>
+                     <i>Gorontalo</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90e941b855c84eb4a92d483c1cf58764 = L.marker(
+                [-6.211544, 106.845172],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_fd5c7a48d4484ea1b3f243ccfa3701cd = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/1200px-Coat_of_arms_of_Jakarta.svg.png"});
+        marker_90e941b855c84eb4a92d483c1cf58764.setIcon(custom_icon_fd5c7a48d4484ea1b3f243ccfa3701cd);
+        
+    
+        var popup_9549296980a340ebafe634c69bef5803 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_1d608adc963e474aaf317bb108ec36e7 = $(`<div id="html_1d608adc963e474aaf317bb108ec36e7" style="width: 100.0%; height: 100.0%;">Confirmed : 720  Recovered : 45  Deaths : 68</div>`)[0];
+            popup_9549296980a340ebafe634c69bef5803.setContent(html_1d608adc963e474aaf317bb108ec36e7);
+        
+
+        marker_90e941b855c84eb4a92d483c1cf58764.bindPopup(popup_9549296980a340ebafe634c69bef5803)
+        ;
+
+        
+    
+    
+            marker_90e941b855c84eb4a92d483c1cf58764.bindTooltip(
+                `<div>
+                     <i>Jakarta</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b50bc8809f654f79963c98ec093e0220 = L.marker(
+                [-1.4851831, 102.4380581],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_4ef64f572293489eafcafb786819ad4e = L.icon({"iconSize": [28, 30], "iconUrl": "https://2.bp.blogspot.com/-y0bGVkW2XfY/Tdui2omcCgI/AAAAAAAADro/Ufjlj4w8nhs/s1600/logo+Jambi.png"});
+        marker_b50bc8809f654f79963c98ec093e0220.setIcon(custom_icon_4ef64f572293489eafcafb786819ad4e);
+        
+    
+        var popup_6cf8dd7a88d1401e89a4c9c507dd286d = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_36592b85b193482ca3c284b31c6ee598 = $(`<div id="html_36592b85b193482ca3c284b31c6ee598" style="width: 100.0%; height: 100.0%;">Confirmed : 1  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_6cf8dd7a88d1401e89a4c9c507dd286d.setContent(html_36592b85b193482ca3c284b31c6ee598);
+        
+
+        marker_b50bc8809f654f79963c98ec093e0220.bindPopup(popup_6cf8dd7a88d1401e89a4c9c507dd286d)
+        ;
+
+        
+    
+    
+            marker_b50bc8809f654f79963c98ec093e0220.bindTooltip(
+                `<div>
+                     <i>Jambi</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f920d1228164611b1ff7b06546bfa4c = L.marker(
+                [-4.5585849, 105.4068079],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_66e8d196c9aa47dfb9e6a4fb341be3a4 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lampung_coa.png"});
+        marker_8f920d1228164611b1ff7b06546bfa4c.setIcon(custom_icon_66e8d196c9aa47dfb9e6a4fb341be3a4);
+        
+    
+        var popup_8611123279ec438e8f7b5dbae15ae044 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_62d0e259c4b548a7a1a944c78aa5480c = $(`<div id="html_62d0e259c4b548a7a1a944c78aa5480c" style="width: 100.0%; height: 100.0%;">Confirmed : 4  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_8611123279ec438e8f7b5dbae15ae044.setContent(html_62d0e259c4b548a7a1a944c78aa5480c);
+        
+
+        marker_8f920d1228164611b1ff7b06546bfa4c.bindPopup(popup_8611123279ec438e8f7b5dbae15ae044)
+        ;
+
+        
+    
+    
+            marker_8f920d1228164611b1ff7b06546bfa4c.bindTooltip(
+                `<div>
+                     <i>Lampung</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f485f3c4b1a2467fbd1edab72540c974 = L.marker(
+                [-3.2384616, 130.1452734],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_37c3ef0178a7492c90c8be2a84c1f091 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lambang_Provinsi_Maluku.png"});
+        marker_f485f3c4b1a2467fbd1edab72540c974.setIcon(custom_icon_37c3ef0178a7492c90c8be2a84c1f091);
+        
+    
+        var popup_8af17e1559224f9184567fb41856993c = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_dd5f56298e234b45b17b0727c654e94e = $(`<div id="html_dd5f56298e234b45b17b0727c654e94e" style="width: 100.0%; height: 100.0%;">Confirmed : 1  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_8af17e1559224f9184567fb41856993c.setContent(html_dd5f56298e234b45b17b0727c654e94e);
+        
+
+        marker_f485f3c4b1a2467fbd1edab72540c974.bindPopup(popup_8af17e1559224f9184567fb41856993c)
+        ;
+
+        
+    
+    
+            marker_f485f3c4b1a2467fbd1edab72540c974.bindTooltip(
+                `<div>
+                     <i>Maluku</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fb304247f0d431d829f8b53d1ee4246 = L.marker(
+                [1.5709993, 127.8087693],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_0c537404cacd44dfb509725356c0b8a6 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Coat_of_arms_of_North_Maluku.png/1200px-Coat_of_arms_of_North_Maluku.png"});
+        marker_6fb304247f0d431d829f8b53d1ee4246.setIcon(custom_icon_0c537404cacd44dfb509725356c0b8a6);
+        
+    
+        var popup_7b34ec3ed7f64c9eaf9f5508587250b2 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_73e593b035b5474a90198d596736789f = $(`<div id="html_73e593b035b5474a90198d596736789f" style="width: 100.0%; height: 100.0%;">Confirmed : 1  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_7b34ec3ed7f64c9eaf9f5508587250b2.setContent(html_73e593b035b5474a90198d596736789f);
+        
+
+        marker_6fb304247f0d431d829f8b53d1ee4246.bindPopup(popup_7b34ec3ed7f64c9eaf9f5508587250b2)
+        ;
+
+        
+    
+    
+            marker_6fb304247f0d431d829f8b53d1ee4246.bindTooltip(
+                `<div>
+                     <i>North Maluku</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e0b97a8c9634c36b68adf877876640e = L.marker(
+                [1.5802128, 114.0308546],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_981a8a83818d42e782596f1a029b230a = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Emblem_of_North_Kalimantan.png"});
+        marker_2e0b97a8c9634c36b68adf877876640e.setIcon(custom_icon_981a8a83818d42e782596f1a029b230a);
+        
+    
+        var popup_72258b908cce4219a5393fb00d02742b = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_73fc0e090f124e60b94bbe12172ad97f = $(`<div id="html_73fc0e090f124e60b94bbe12172ad97f" style="width: 100.0%; height: 100.0%;">Confirmed : 2  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_72258b908cce4219a5393fb00d02742b.setContent(html_73fc0e090f124e60b94bbe12172ad97f);
+        
+
+        marker_2e0b97a8c9634c36b68adf877876640e.bindPopup(popup_72258b908cce4219a5393fb00d02742b)
+        ;
+
+        
+    
+    
+            marker_2e0b97a8c9634c36b68adf877876640e.bindTooltip(
+                `<div>
+                     <i>North Kalimantan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71457a34998a488e9df5ede6338a5b2c = L.marker(
+                [0.6246932, 123.9750018],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_7865313b39b4416b8f5ba7a2211eda70 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Coat_of_arms_of_North_Sulawesi.svg/1200px-Coat_of_arms_of_North_Sulawesi.svg.png"});
+        marker_71457a34998a488e9df5ede6338a5b2c.setIcon(custom_icon_7865313b39b4416b8f5ba7a2211eda70);
+        
+    
+        var popup_d5a7977121784f0cb87cc803491ec79a = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_6db35bba19b0408eaf8e782218bc526d = $(`<div id="html_6db35bba19b0408eaf8e782218bc526d" style="width: 100.0%; height: 100.0%;">Confirmed : 2  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_d5a7977121784f0cb87cc803491ec79a.setContent(html_6db35bba19b0408eaf8e782218bc526d);
+        
+
+        marker_71457a34998a488e9df5ede6338a5b2c.bindPopup(popup_d5a7977121784f0cb87cc803491ec79a)
+        ;
+
+        
+    
+    
+            marker_71457a34998a488e9df5ede6338a5b2c.bindTooltip(
+                `<div>
+                     <i>North Sulawesi</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_941fc3418cef4a6290a5bc49fb3ff9f4 = L.marker(
+                [2.1153547, 99.5450974],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_2e16cab950c7406cbd14bc27a001a6d0 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Coat_of_arms_of_North_Sumatra.svg/1200px-Coat_of_arms_of_North_Sumatra.svg.png"});
+        marker_941fc3418cef4a6290a5bc49fb3ff9f4.setIcon(custom_icon_2e16cab950c7406cbd14bc27a001a6d0);
+        
+    
+        var popup_eb50de4d719d4296815922a5dbc8f468 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_f88d3ba411544c1db3c97763b39dc655 = $(`<div id="html_f88d3ba411544c1db3c97763b39dc655" style="width: 100.0%; height: 100.0%;">Confirmed : 8  Recovered : 0  Deaths : 1</div>`)[0];
+            popup_eb50de4d719d4296815922a5dbc8f468.setContent(html_f88d3ba411544c1db3c97763b39dc655);
+        
+
+        marker_941fc3418cef4a6290a5bc49fb3ff9f4.bindPopup(popup_eb50de4d719d4296815922a5dbc8f468)
+        ;
+
+        
+    
+    
+            marker_941fc3418cef4a6290a5bc49fb3ff9f4.bindTooltip(
+                `<div>
+                     <i>North Sumatera</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88fa87b403e24946885237258d185e5c = L.marker(
+                [-4.269928, 138.0803529],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_de572d14cc1346558f77ed20557dcc6f = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Coat_of_Arms_of_Papua.png"});
+        marker_88fa87b403e24946885237258d185e5c.setIcon(custom_icon_de572d14cc1346558f77ed20557dcc6f);
+        
+    
+        var popup_dab9f8d038fa4ac59709c6c4bafb0c49 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_2fec58bccb994267b988b0ab3723d1e9 = $(`<div id="html_2fec58bccb994267b988b0ab3723d1e9" style="width: 100.0%; height: 100.0%;">Confirmed : 9  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_dab9f8d038fa4ac59709c6c4bafb0c49.setContent(html_2fec58bccb994267b988b0ab3723d1e9);
+        
+
+        marker_88fa87b403e24946885237258d185e5c.bindPopup(popup_dab9f8d038fa4ac59709c6c4bafb0c49)
+        ;
+
+        
+    
+    
+            marker_88fa87b403e24946885237258d185e5c.bindTooltip(
+                `<div>
+                     <i>Papua</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5382474c467a4e4a99ea2bb0acd151bf = L.marker(
+                [0.2933469, 101.7068294],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_a1290497db194eed820018b77784d4be = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coat_of_arms_of_Riau.svg/1200px-Coat_of_arms_of_Riau.svg.png"});
+        marker_5382474c467a4e4a99ea2bb0acd151bf.setIcon(custom_icon_a1290497db194eed820018b77784d4be);
+        
+    
+        var popup_cbf39b40f08a4f72a73031eb405ff357 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_3dbfd949e05c4b648560dfdf408d7903 = $(`<div id="html_3dbfd949e05c4b648560dfdf408d7903" style="width: 100.0%; height: 100.0%;">Confirmed : 2  Recovered : 1  Deaths : 0</div>`)[0];
+            popup_cbf39b40f08a4f72a73031eb405ff357.setContent(html_3dbfd949e05c4b648560dfdf408d7903);
+        
+
+        marker_5382474c467a4e4a99ea2bb0acd151bf.bindPopup(popup_cbf39b40f08a4f72a73031eb405ff357)
+        ;
+
+        
+    
+    
+            marker_5382474c467a4e4a99ea2bb0acd151bf.bindTooltip(
+                `<div>
+                     <i>Riau</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86df7e8a19d84116980fedcb8e56607d = L.marker(
+                [3.9456514, 108.1428669],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_1d5059d5f03a466d90da11b4f7f6811d = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Coat_of_arms_of_Riau_Islands.png"});
+        marker_86df7e8a19d84116980fedcb8e56607d.setIcon(custom_icon_1d5059d5f03a466d90da11b4f7f6811d);
+        
+    
+        var popup_7d80ce8b86654e38a4c0ac5baa980c7e = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_dcc74754261c4c579e2167b5ca61202f = $(`<div id="html_dcc74754261c4c579e2167b5ca61202f" style="width: 100.0%; height: 100.0%;">Confirmed : 5  Recovered : 0  Deaths : 1</div>`)[0];
+            popup_7d80ce8b86654e38a4c0ac5baa980c7e.setContent(html_dcc74754261c4c579e2167b5ca61202f);
+        
+
+        marker_86df7e8a19d84116980fedcb8e56607d.bindPopup(popup_7d80ce8b86654e38a4c0ac5baa980c7e)
+        ;
+
+        
+    
+    
+            marker_86df7e8a19d84116980fedcb8e56607d.bindTooltip(
+                `<div>
+                     <i>Riau Islands</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3c4e69e33084e869b69e743c40641b4 = L.marker(
+                [-3.0926415, 115.2837585],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_750b14290efd47d0a0734e9711b974b4 = L.icon({"iconSize": [28, 30], "iconUrl": "https://pngimage.net/wp-content/uploads/2018/06/logo-provinsi-kalimantan-selatan-png.png"});
+        marker_d3c4e69e33084e869b69e743c40641b4.setIcon(custom_icon_750b14290efd47d0a0734e9711b974b4);
+        
+    
+        var popup_fb558933dc87498bad435a881054dbb8 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_f744f0c4e315449f8ad364d899baac21 = $(`<div id="html_f744f0c4e315449f8ad364d899baac21" style="width: 100.0%; height: 100.0%;">Confirmed : 1  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_fb558933dc87498bad435a881054dbb8.setContent(html_f744f0c4e315449f8ad364d899baac21);
+        
+
+        marker_d3c4e69e33084e869b69e743c40641b4.bindPopup(popup_fb558933dc87498bad435a881054dbb8)
+        ;
+
+        
+    
+    
+            marker_d3c4e69e33084e869b69e743c40641b4.bindTooltip(
+                `<div>
+                     <i>South Kalimantan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9b76e81b9314765945c4bf4497c75da = L.marker(
+                [-3.6687994, 119.9740534],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_e1b790c558bc477c8ea076e7c4d149a0 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Coat_of_arms_of_South_Sulawesi.svg/1200px-Coat_of_arms_of_South_Sulawesi.svg.png"});
+        marker_b9b76e81b9314765945c4bf4497c75da.setIcon(custom_icon_e1b790c558bc477c8ea076e7c4d149a0);
+        
+    
+        var popup_00764fd978e64c8aa1d9215643121d13 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_5e06ee582bef435d930b6fdd38174df8 = $(`<div id="html_5e06ee582bef435d930b6fdd38174df8" style="width: 100.0%; height: 100.0%;">Confirmed : 47  Recovered : 0  Deaths : 1</div>`)[0];
+            popup_00764fd978e64c8aa1d9215643121d13.setContent(html_5e06ee582bef435d930b6fdd38174df8);
+        
+
+        marker_b9b76e81b9314765945c4bf4497c75da.bindPopup(popup_00764fd978e64c8aa1d9215643121d13)
+        ;
+
+        
+    
+    
+            marker_b9b76e81b9314765945c4bf4497c75da.bindTooltip(
+                `<div>
+                     <i>South Sulawesi</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e12a618e83644fdc80a217ab38ab831f = L.marker(
+                [-4.14491, 122.174605],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_6c0a43922d754b02915f53e3028bbaba = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_arms_of_Southeast_Sulawesi.svg/1200px-Coat_of_arms_of_Southeast_Sulawesi.svg.png"});
+        marker_e12a618e83644fdc80a217ab38ab831f.setIcon(custom_icon_6c0a43922d754b02915f53e3028bbaba);
+        
+    
+        var popup_ece5d0bb79fe4bfdb85b6846dd991caf = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_4ef64fc2317e4d79adea50991d167568 = $(`<div id="html_4ef64fc2317e4d79adea50991d167568" style="width: 100.0%; height: 100.0%;">Confirmed : 3  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_ece5d0bb79fe4bfdb85b6846dd991caf.setContent(html_4ef64fc2317e4d79adea50991d167568);
+        
+
+        marker_e12a618e83644fdc80a217ab38ab831f.bindPopup(popup_ece5d0bb79fe4bfdb85b6846dd991caf)
+        ;
+
+        
+    
+    
+            marker_e12a618e83644fdc80a217ab38ab831f.bindTooltip(
+                `<div>
+                     <i>Southeast Sulawesi</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da4d86efdc064ea7b85eb1a0c5c3423e = L.marker(
+                [-3.3194374, 103.914399],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_cdc4793e342244148c58c3b2266d86d0 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coat_of_arms_of_South_Sumatra.svg/1200px-Coat_of_arms_of_South_Sumatra.svg.png"});
+        marker_da4d86efdc064ea7b85eb1a0c5c3423e.setIcon(custom_icon_cdc4793e342244148c58c3b2266d86d0);
+        
+    
+        var popup_d4304048b75b4e68bb2ec9f4577f6cfa = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_0d1018475fcc47ef978b0b304d8ced9e = $(`<div id="html_0d1018475fcc47ef978b0b304d8ced9e" style="width: 100.0%; height: 100.0%;">Confirmed : 2  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_d4304048b75b4e68bb2ec9f4577f6cfa.setContent(html_0d1018475fcc47ef978b0b304d8ced9e);
+        
+
+        marker_da4d86efdc064ea7b85eb1a0c5c3423e.bindPopup(popup_d4304048b75b4e68bb2ec9f4577f6cfa)
+        ;
+
+        
+    
+    
+            marker_da4d86efdc064ea7b85eb1a0c5c3423e.bindTooltip(
+                `<div>
+                     <i>South Sumatera</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c0aae8bbfe34626a8efcba5c95945f9 = L.marker(
+                [-7.090911, 107.668887],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_597e4d3b99ee4665b4233915f23195d7 = L.icon({"iconSize": [28, 30], "iconUrl": "https://3.bp.blogspot.com/-BRV8kAVyi4I/XDX3S86Pk5I/AAAAAAAABwA/K5fnfc4c1VYps0EcV32qP6yB96kghqU3QCLcBGAs/s1600/logo%2Bjawa%2Bbarat.png"});
+        marker_9c0aae8bbfe34626a8efcba5c95945f9.setIcon(custom_icon_597e4d3b99ee4665b4233915f23195d7);
+        
+    
+        var popup_c6142b6357b34cbbb01a446dc41b4f8a = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_7e482ddbbd7744a292a8cc0c54608e3c = $(`<div id="html_7e482ddbbd7744a292a8cc0c54608e3c" style="width: 100.0%; height: 100.0%;">Confirmed : 149  Recovered : 6  Deaths : 19</div>`)[0];
+            popup_c6142b6357b34cbbb01a446dc41b4f8a.setContent(html_7e482ddbbd7744a292a8cc0c54608e3c);
+        
+
+        marker_9c0aae8bbfe34626a8efcba5c95945f9.bindPopup(popup_c6142b6357b34cbbb01a446dc41b4f8a)
+        ;
+
+        
+    
+    
+            marker_9c0aae8bbfe34626a8efcba5c95945f9.bindTooltip(
+                `<div>
+                     <i>West Java</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fb241cedaef4353be7b94a95be97c2f = L.marker(
+                [-0.2787808, 111.4752851],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_85ca3454315a4c0485db44e975909eda = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coat_of_arms_of_West_Kalimantan.svg/1200px-Coat_of_arms_of_West_Kalimantan.svg.png"});
+        marker_1fb241cedaef4353be7b94a95be97c2f.setIcon(custom_icon_85ca3454315a4c0485db44e975909eda);
+        
+    
+        var popup_06f4c7f48f094743bae39f545518f07f = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_d675e4de39d34b73984e1fb10572fcad = $(`<div id="html_d675e4de39d34b73984e1fb10572fcad" style="width: 100.0%; height: 100.0%;">Confirmed : 8  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_06f4c7f48f094743bae39f545518f07f.setContent(html_d675e4de39d34b73984e1fb10572fcad);
+        
+
+        marker_1fb241cedaef4353be7b94a95be97c2f.bindPopup(popup_06f4c7f48f094743bae39f545518f07f)
+        ;
+
+        
+    
+    
+            marker_1fb241cedaef4353be7b94a95be97c2f.bindTooltip(
+                `<div>
+                     <i>West Kalimantan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_103c9b5af2924078892e1980ab8e6459 = L.marker(
+                [-8.6529334, 117.3616476],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_17fef495e5c343849cb788f066193b15 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Coat_of_arms_of_West_Nusa_Tenggara.svg/1200px-Coat_of_arms_of_West_Nusa_Tenggara.svg.png"});
+        marker_103c9b5af2924078892e1980ab8e6459.setIcon(custom_icon_17fef495e5c343849cb788f066193b15);
+        
+    
+        var popup_cf2f1534a432422087a8def0e8f883d5 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_e17bc2543814494a8beef19b69a0fe74 = $(`<div id="html_e17bc2543814494a8beef19b69a0fe74" style="width: 100.0%; height: 100.0%;">Confirmed : 2  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_cf2f1534a432422087a8def0e8f883d5.setContent(html_e17bc2543814494a8beef19b69a0fe74);
+        
+
+        marker_103c9b5af2924078892e1980ab8e6459.bindPopup(popup_cf2f1534a432422087a8def0e8f883d5)
+        ;
+
+        
+    
+    
+            marker_103c9b5af2924078892e1980ab8e6459.bindTooltip(
+                `<div>
+                     <i>West Nusa Tenggara</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a435fd09b66141f7be876031ab80c47e = L.marker(
+                [-1.3361154, 133.1747162],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_7ff17ba123be4a8fa02154788c407d0d = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_West_Papua.svg/1200px-Coat_of_arms_of_West_Papua.svg.png"});
+        marker_a435fd09b66141f7be876031ab80c47e.setIcon(custom_icon_7ff17ba123be4a8fa02154788c407d0d);
+        
+    
+        var popup_6924634f74464475aca2e6b26669f908 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_fabc136adb6c47e0bf416fa668100560 = $(`<div id="html_fabc136adb6c47e0bf416fa668100560" style="width: 100.0%; height: 100.0%;">Confirmed : 2  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_6924634f74464475aca2e6b26669f908.setContent(html_fabc136adb6c47e0bf416fa668100560);
+        
+
+        marker_a435fd09b66141f7be876031ab80c47e.bindPopup(popup_6924634f74464475aca2e6b26669f908)
+        ;
+
+        
+    
+    
+            marker_a435fd09b66141f7be876031ab80c47e.bindTooltip(
+                `<div>
+                     <i>West Papua</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06fb01ffc54341eabeccb3458b4c819e = L.marker(
+                [-2.8441371, 119.2320784],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_d7d5be68258543c6aa34eef85a93b7a1 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Coat_of_arms_of_West_Sulawesi.png"});
+        marker_06fb01ffc54341eabeccb3458b4c819e.setIcon(custom_icon_d7d5be68258543c6aa34eef85a93b7a1);
+        
+    
+        var popup_06623cedb83f4d33b63bb6d0ed98e795 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_57bf7f8ff2ff43ae9408bf2379fde366 = $(`<div id="html_57bf7f8ff2ff43ae9408bf2379fde366" style="width: 100.0%; height: 100.0%;">Confirmed : 1  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_06623cedb83f4d33b63bb6d0ed98e795.setContent(html_57bf7f8ff2ff43ae9408bf2379fde366);
+        
+
+        marker_06fb01ffc54341eabeccb3458b4c819e.bindPopup(popup_06623cedb83f4d33b63bb6d0ed98e795)
+        ;
+
+        
+    
+    
+            marker_06fb01ffc54341eabeccb3458b4c819e.bindTooltip(
+                `<div>
+                     <i>West Sulawesi</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f1caf7c166e450b887373dc57bb26ed = L.marker(
+                [-0.7399397, 100.8000051],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_e1471f7cbdfe4b86aa211ea9c16ac73a = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Coat_of_arms_of_West_Sumatra.svg/1200px-Coat_of_arms_of_West_Sumatra.svg.png"});
+        marker_4f1caf7c166e450b887373dc57bb26ed.setIcon(custom_icon_e1471f7cbdfe4b86aa211ea9c16ac73a);
+        
+    
+        var popup_e4dc0685da4e49b1a52c62b7b57e4924 = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_3fb7186b72ec4c72b55c74afbf422d9d = $(`<div id="html_3fb7186b72ec4c72b55c74afbf422d9d" style="width: 100.0%; height: 100.0%;">Confirmed : 5  Recovered : 0  Deaths : 0</div>`)[0];
+            popup_e4dc0685da4e49b1a52c62b7b57e4924.setContent(html_3fb7186b72ec4c72b55c74afbf422d9d);
+        
+
+        marker_4f1caf7c166e450b887373dc57bb26ed.bindPopup(popup_e4dc0685da4e49b1a52c62b7b57e4924)
+        ;
+
+        
+    
+    
+            marker_4f1caf7c166e450b887373dc57bb26ed.bindTooltip(
+                `<div>
+                     <i>West Sumatra</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7a94f7aaee94795be2d810d0e985121 = L.marker(
+                [-7.8753849, 110.4262088],
+                {}
+            ).addTo(map_9b65e3cc0ff34baf96ff73f08323ecf4);
+        
+    
+        var custom_icon_46fab5fdb6864e468596c0cf8a207102 = L.icon({"iconSize": [28, 30], "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Coat_of_arms_of_Yogyakarta.svg/1200px-Coat_of_arms_of_Yogyakarta.svg.png"});
+        marker_e7a94f7aaee94795be2d810d0e985121.setIcon(custom_icon_46fab5fdb6864e468596c0cf8a207102);
+        
+    
+        var popup_5e707f71e89a44c7a996b9f94303356f = L.popup({"maxWidth": 300, "minWidth": 100});
+
+        
+            var html_492bc46a1474450db8511f91960ab54f = $(`<div id="html_492bc46a1474450db8511f91960ab54f" style="width: 100.0%; height: 100.0%;">Confirmed : 22  Recovered : 1  Deaths : 2</div>`)[0];
+            popup_5e707f71e89a44c7a996b9f94303356f.setContent(html_492bc46a1474450db8511f91960ab54f);
+        
+
+        marker_e7a94f7aaee94795be2d810d0e985121.bindPopup(popup_5e707f71e89a44c7a996b9f94303356f)
+        ;
+
+        
+    
+    
+            marker_e7a94f7aaee94795be2d810d0e985121.bindTooltip(
+                `<div>
+                     <i>Yogyakarta</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
